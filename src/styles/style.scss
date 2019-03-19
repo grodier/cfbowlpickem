@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+}
+
+.pick-card {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid black;
+}
